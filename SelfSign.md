@@ -18,7 +18,7 @@ cd /opt/certgen
 
 cat > /opt/certgen/root_ca.cfg <<EOF
 {
-    "CN": "HCC Digital Root CA",
+    "CN": "Some Root CA",
     "key": {
         "algo": "rsa",
         "size": 2048
@@ -47,7 +47,7 @@ EOF
 
 cat > /opt/certgen/int_ca.cfg <<EOF
 {
-    "CN": "HCC Digital IntermediateCA",
+    "CN": "Some IntermediateCA",
     "key": {
         "algo": "rsa",
         "size": 2048
